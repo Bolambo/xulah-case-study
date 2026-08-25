@@ -64,6 +64,10 @@ Xulah builds generation instructions through multiple intelligence layers:
 
 Generation considers platform, content type, niche, template, region, plan, and requested transformation. Generated content is persisted with its associated user and contextual information.
 
+![Xulah content intelligence pipeline](architecture/xulah-content-intelligence-pipeline.svg)
+
+The pipeline illustrates the core product principle: **understand the communication context before generating the content.**
+
 ## AI Infrastructure
 
 Xulah integrates the OpenAI API through the official OpenAI Node package.
