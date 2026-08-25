@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071018"/><stop offset="1" stop-color="#0b1119"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00d9a6"/><stop offset="1" stop-color="#35f0c2"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".35"/></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52e6c0"/></marker>
+</defs>
+<rect width="1400" height="900" fill="url(#bg)"/>
+<text x="70" y="72" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Xulah Content Intelligence Pipeline</text>
+<text x="70" y="110" fill="#91a2b8" font-family="Inter,Arial,sans-serif" font-size="18">From a raw idea to context-aware, strategy-driven content</text>
+
+<!-- Input -->
+<g filter="url(#shadow)"><rect x="70" y="170" width="250" height="220" rx="22" fill="#101b27" stroke="#173f4c"/>
+<rect x="70" y="170" width="250" height="6" rx="3" fill="url(#accent)"/>
+<text x="95" y="215" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">01 · USER CONTEXT</text>
+<text x="95" y="252" fill="#fff" font-family="Inter,Arial" font-size="21" font-weight="700">What are you trying</text><text x="95" y="280" fill="#fff" font-family="Inter,Arial" font-size="21" font-weight="700">to achieve?</text>
+<text x="95" y="318" fill="#aebdce" font-family="Inter,Arial" font-size="15">Objective · Audience · Niche</text>
+<text x="95" y="344" fill="#aebdce" font-family="Inter,Arial" font-size="15">Region · Platform · Tone</text>
+<text x="95" y="370" fill="#aebdce" font-family="Inter,Arial" font-size="15">Content pack · Template</text></g>
+
+<!-- Intelligence -->
+<g filter="url(#shadow)"><rect x="390" y="150" width="300" height="260" rx="22" fill="#101b27" stroke="#173f4c"/>
+<rect x="390" y="150" width="300" height="6" rx="3" fill="url(#accent)"/>
+<text x="415" y="195" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">02 · INTELLIGENCE LAYERS</text>
+<text x="415" y="235" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">Context is transformed into</text><text x="415" y="260" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">content direction.</text>
+<text x="415" y="299" fill="#aebdce" font-family="Inter,Arial" font-size="14">Template rules · Niche guidance</text>
+<text x="415" y="323" fill="#aebdce" font-family="Inter,Arial" font-size="14">Regional calibration · Tone</text>
+<text x="415" y="347" fill="#aebdce" font-family="Inter,Arial" font-size="14">Voice · Transformation rules</text>
+<text x="415" y="371" fill="#aebdce" font-family="Inter,Arial" font-size="14">Commercial intent · Formatting</text></g>
+
+<!-- Plan/model -->
+<g filter="url(#shadow)"><rect x="760" y="170" width="270" height="220" rx="22" fill="#101b27" stroke="#173f4c"/>
+<rect x="760" y="170" width="270" height="6" rx="3" fill="url(#accent)"/>
+<text x="785" y="215" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">03 · ENTITLEMENT + MODEL</text>
+<text x="785" y="255" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">Plan-aware intelligence</text>
+<text x="785" y="292" fill="#aebdce" font-family="Inter,Arial" font-size="15">Silver → gpt-4o-mini</text>
+<text x="785" y="320" fill="#aebdce" font-family="Inter,Arial" font-size="15">Gold → gpt-4o-mini</text>
+<text x="785" y="348" fill="#aebdce" font-family="Inter,Arial" font-size="15">Platinum → gpt-5.4-mini</text></g>
+
+<!-- Generation -->
+<g filter="url(#shadow)"><rect x="1100" y="170" width="230" height="220" rx="22" fill="#101b27" stroke="#173f4c"/>
+<rect x="1100" y="170" width="230" height="6" rx="3" fill="url(#accent)"/>
+<text x="1125" y="215" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">04 · GENERATION</text>
+<text x="1125" y="255" fill="#fff" font-family="Inter,Arial" font-size="20" font-weight="700">OpenAI</text>
+<text x="1125" y="289" fill="#aebdce" font-family="Inter,Arial" font-size="14">Prompt assembly</text>
+<text x="1125" y="315" fill="#aebdce" font-family="Inter,Arial" font-size="14">Retry / backoff</text>
+<text x="1125" y="341" fill="#aebdce" font-family="Inter,Arial" font-size="14">Structured output</text>
+<text x="1125" y="367" fill="#aebdce" font-family="Inter,Arial" font-size="14">Context-preserving</text></g>
+
+<!-- arrows -->
+<path d="M320 280 H390" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M690 280 H760" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1030 280 H1100" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+
+<!-- Lower flow -->
+<g filter="url(#shadow)"><rect x="160" y="520" width="300" height="210" rx="22" fill="#101b27" stroke="#173f4c"/>
+<text x="185" y="562" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">05 · VALIDATION + REFINEMENT</text>
+<text x="185" y="602" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">Quality controls</text>
+<text x="185" y="637" fill="#aebdce" font-family="Inter,Arial" font-size="14">Structure and rule checks</text>
+<text x="185" y="662" fill="#aebdce" font-family="Inter,Arial" font-size="14">Transformation safeguards</text>
+<text x="185" y="687" fill="#aebdce" font-family="Inter,Arial" font-size="14">Factual-integrity guardrails</text></g>
+
+<g filter="url(#shadow)"><rect x="550" y="520" width="300" height="210" rx="22" fill="#101b27" stroke="#173f4c"/>
+<text x="575" y="562" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">06 · PERSISTENCE</text>
+<text x="575" y="602" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">Supabase</text>
+<text x="575" y="637" fill="#aebdce" font-family="Inter,Arial" font-size="14">User context and generation history</text>
+<text x="575" y="662" fill="#aebdce" font-family="Inter,Arial" font-size="14">Calendar projects and items</text>
+<text x="575" y="687" fill="#aebdce" font-family="Inter,Arial" font-size="14">RLS-protected application data</text></g>
+
+<g filter="url(#shadow)"><rect x="940" y="520" width="300" height="210" rx="22" fill="#101b27" stroke="#173f4c"/>
+<text x="965" y="562" fill="#49e8bd" font-family="Inter,Arial" font-size="15" font-weight="700">07 · PRODUCT OUTPUT</text>
+<text x="965" y="602" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="700">Strategy-driven content</text>
+<text x="965" y="637" fill="#aebdce" font-family="Inter,Arial" font-size="14">Generate · Regenerate · Transform</text>
+<text x="965" y="662" fill="#aebdce" font-family="Inter,Arial" font-size="14">Copy · Share · Download</text>
+<text x="965" y="687" fill="#aebdce" font-family="Inter,Arial" font-size="14">Calendar-ready content workflows</text></g>
+
+<path d="M1215 390 C1215 450 310 450 310 520" fill="none" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M460 625 H550" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M850 625 H940" stroke="#52e6c0" stroke-width="3" marker-end="url(#arrow)"/>
+
+<text x="70" y="825" fill="#6f8197" font-family="Inter,Arial" font-size="14">Xulah's core principle: understand the communication context before generating the content.</text>
+</svg>
