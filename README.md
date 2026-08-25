@@ -39,6 +39,8 @@ Xulah includes authenticated workspaces, subscription entitlements, regional pay
 
 Xulah uses a **Next.js App Router** architecture with React and TypeScript on the application layer, server-side route handlers for backend operations, and Supabase for authentication and persistent application data.
 
+![Xulah high-level architecture](architecture/xulah-architecture.svg)
+
 Reusable server-side libraries handle content templates and rules, prompt layers, calendar generation and validation, entitlement resolution, device security, Supabase clients, Stripe and Paystack billing, media providers, and Intelligence Circle services.
 
 ## Content Intelligence Engine
