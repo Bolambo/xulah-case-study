@@ -18,6 +18,12 @@ My work covered product planning, frontend and backend development, database des
 
 Xulah includes authenticated workspaces, subscription entitlements, regional payment flows, AI-powered content generation, a 30-day content calendar, media integrations, usage controls, account/device security, and an administrative Intelligence Circle environment.
 
+## Product Interface
+
+The production application brings the intelligence workflow and strategic calendar together in a working SaaS experience.
+
+![Xulah product interface — Intelligence Workspace and 30-Day Content Calendar](xulah-interface-showcase-v2.jpg)
+
 ## Technology Stack
 
 | Area | Technologies |
