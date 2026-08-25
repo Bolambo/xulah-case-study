@@ -12,7 +12,7 @@ Rather than treating content generation as a simple prompt-and-output exercise, 
 
 ## What I Built
 
-I conceived Xulah, developed its product implementation roadmap, and took the product from concept and MVP through a continuously evolving live application.
+I designed and built Xulah, developed its product implementation roadmap, and took the product from concept and MVP through a continuously evolving live application.
 
 My work covered product planning, frontend and backend development, database design, authentication, AI integration, subscription architecture, payment processing, security and abuse-prevention mechanisms, API integrations, deployment, testing, debugging, and ongoing product refinement.
 
